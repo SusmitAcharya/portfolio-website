@@ -13,41 +13,41 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm wireframe-border border-t-0 border-l-0 border-r-0">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-8">
+        <div className="flex items-center gap-6">
             <button
               onClick={() => scrollToSection("home")}
-              className="p-2 hover:bg-accent/10 rounded transition-colors"
-              aria-label="Home"
+              className="flex items-center gap-2 px-3 py-2 hover:bg-accent/10 rounded transition-colors text-sm font-medium"
             >
-              <Home className="w-5 h-5" />
+              <Home className="w-4 h-4" />
+              <span>Home</span>
             </button>
             <button
               onClick={() => scrollToSection("expertise")}
-              className="p-2 hover:bg-accent/10 rounded transition-colors"
-              aria-label="My Expertise"
+              className="flex items-center gap-2 px-3 py-2 hover:bg-accent/10 rounded transition-colors text-sm font-medium"
             >
-              <Lightbulb className="w-5 h-5" />
+              <Lightbulb className="w-4 h-4" />
+              <span>Expertise</span>
             </button>
             <button
               onClick={() => scrollToSection("projects")}
-              className="p-2 hover:bg-accent/10 rounded transition-colors"
-              aria-label="My Projects"
+              className="flex items-center gap-2 px-3 py-2 hover:bg-accent/10 rounded transition-colors text-sm font-medium"
             >
-              <FolderOpen className="w-5 h-5" />
+              <FolderOpen className="w-4 h-4" />
+              <span>Projects</span>
             </button>
             <button
               onClick={() => scrollToSection("case-studies")}
-              className="p-2 hover:bg-accent/10 rounded transition-colors"
-              aria-label="Case Studies"
+              className="flex items-center gap-2 px-3 py-2 hover:bg-accent/10 rounded transition-colors text-sm font-medium"
             >
-              <FileText className="w-5 h-5" />
+              <FileText className="w-4 h-4" />
+              <span>Case Studies</span>
             </button>
             <button
               onClick={() => scrollToSection("testimonials")}
-              className="p-2 hover:bg-accent/10 rounded transition-colors"
-              aria-label="Testimonials"
+              className="flex items-center gap-2 px-3 py-2 hover:bg-accent/10 rounded transition-colors text-sm font-medium"
             >
-              <MessageSquare className="w-5 h-5" />
+              <MessageSquare className="w-4 h-4" />
+              <span>Testimonials</span>
             </button>
           </div>
           <Button
