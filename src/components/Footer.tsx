@@ -9,7 +9,7 @@ const Footer = () => {
           <h2 className="text-4xl md:text-5xl font-light">Let's Connect</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Let's build something amazing together. Whether you have a project in mind, 
-            want to collaborate on research, or just want to say hi—click below to reach out.
+            want to collaborate on research, or just want to say hi, your solution is right here.
           </p>
         </div>
         
