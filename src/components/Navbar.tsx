@@ -1,12 +1,21 @@
 import { Home, Lightbulb, FolderOpen, FileText, MessageSquare, Mail, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { useIsMobile } from "@/hooks/use-mobile";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
-  const isMobile = useIsMobile();
   const [open, setOpen] = useState(false);
+  const [isMobileOrTablet, setIsMobileOrTablet] = useState(false);
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsMobileOrTablet(window.innerWidth < 1024); // lg breakpoint
+    };
+    
+    checkScreenSize();
+    window.addEventListener("resize", checkScreenSize);
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -28,7 +37,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm wireframe-border border-t-0 border-l-0 border-r-0">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          {isMobile ? (
+          {isMobileOrTablet ? (
             <>
               <Sheet open={open} onOpenChange={setOpen}>
                 <SheetTrigger asChild>
