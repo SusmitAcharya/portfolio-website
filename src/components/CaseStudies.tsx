@@ -79,7 +79,7 @@ const CaseStudies = () => {
                   <p className="text-muted-foreground leading-relaxed ml-4">{study.impact}</p>
                 </div>
 
-                <div className="grid grid-cols-2 gap-4 pt-4">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-4">
                   <img 
                     src={placeholderImage1} 
                     alt="Case study preview 1"
