@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
-import AIBISalesForecastGraph from "@/assets/casestudy-aibisalesforecastgarph.png";
-import AIBIChurnGraph from "@/assets/casestudy-aibichurngarph.png";
+import AIBISalesForecastGraph from "@/assets/casestudy-aibisalesforcastgraph.png";
+import AIBIChurnGraph from "@/assets/casestudy-aibichurngraph.png";
 
 const caseStudies = [
   {
