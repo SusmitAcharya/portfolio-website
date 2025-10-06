@@ -1,5 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
+import placeholderImage1 from "@/assets/case-study-placeholder-1.jpg";
+import placeholderImage2 from "@/assets/case-study-placeholder-2.jpg";
 
 const caseStudies = [
   {
@@ -75,6 +77,19 @@ const CaseStudies = () => {
                     Impact
                   </h4>
                   <p className="text-muted-foreground leading-relaxed ml-4">{study.impact}</p>
+                </div>
+
+                <div className="grid grid-cols-2 gap-4 pt-4">
+                  <img 
+                    src={placeholderImage1} 
+                    alt="Case study preview 1"
+                    className="w-full h-auto rounded border border-border"
+                  />
+                  <img 
+                    src={placeholderImage2} 
+                    alt="Case study preview 2"
+                    className="w-full h-auto rounded border border-border"
+                  />
                 </div>
                 
                 <a 
