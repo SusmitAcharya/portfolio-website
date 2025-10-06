@@ -1,4 +1,4 @@
-import aboutPhoto from "@/assets/susmit-headshot-color.png";
+import aboutPhoto from "@/assets/susmit-headshot-bw-yellowbg.png";
 
 const About = () => {
   return (
