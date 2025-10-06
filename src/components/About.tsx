@@ -8,13 +8,21 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 text-lg md:text-xl leading-relaxed text-muted-foreground">
             <p className="animate-slide-up" style={{ animationDelay: "0.1s" }}>
-              I am a student, developer, and researcher interested in building technology that solves problems. 
-              I love coding, exploring AI, and working on research projects that push boundaries. My focus is on 
-              building things that are both practical and creative.
+              I’m Susmit, a front-end developer and UI/UX designer focused on creating clean, efficient, and meaningful digital products. 
+              My main skills are in modern web design, responsive development, and making intuitive user experiences. My thought process is straightforward: 
+              every design should have a purpose, every pixel should have logic, and every line of code should promote clarity. I don’t just create what looks good; 
+              I create what works.
             </p>
             <p className="animate-slide-up" style={{ animationDelay: "0.2s" }}>
-              Outside of work, I enjoy experimenting with new tools, collaborating with peers, and constantly learning. 
-              People who have worked with me say I'm driven, curious, and fun to team up with.
+              Over the past few years, I’ve built interfaces, prototypes, and full-scale web projects that combine usability, performance, and design sensibility. 
+              I primarily work with HTML, CSS, JavaScript, and modern front-end frameworks. Beyond the screen, I’ve led projects that connect AI tools with 
+              real-world applications, such as education apps and business automation, turning ideas into structured, functional systems. My clients and 
+              collaborators trust me because I listen, iterate quickly, and deliver polished results. My approach is clear, based on data, and focused on building 
+              long-term reliability.
+            </p>
+            <p className="animate-slide-up" style={{ animationDelay: "0.3s" }}>
+              If you’ve read this far, you already have a sense of how I think and work. I believe good work speaks for itself, so scroll down, explore my projects, 
+              and see how I turn ideas into impact. If you’re looking for someone who can bring clarity and execution to your next idea, let’s connect!
             </p>
           </div>
           <div className="animate-slide-up" style={{ animationDelay: "0.3s" }}>
