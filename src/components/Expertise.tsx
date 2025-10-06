@@ -10,18 +10,18 @@ import certData from "@/assets/cert-data.jpg";
 const expertiseAreas = [
   {
     icon: Code,
-    title: "Full-Stack Development",
+    title: "Full-Stack Web Development",
     description: "Building scalable web applications with modern frameworks and best practices"
   },
   {
-    icon: Brain,
-    title: "AI & Machine Learning",
-    description: "Developing intelligent systems and exploring cutting-edge AI research"
+    icon: Code,
+    title: "Python",
+    description: "Developing intelligent systems using Python and exploring cutting-edge AI tools"
   },
   {
-    icon: Database,
-    title: "Data Engineering",
-    description: "Designing robust data pipelines and optimizing database architectures"
+    icon: Code,
+    title: "Java",
+    description: "Building robust applications with the help of Java"
   },
   {
     icon: Palette,
@@ -31,7 +31,7 @@ const expertiseAreas = [
   {
     icon: Zap,
     title: "Research & Innovation",
-    description: "Publishing papers and contributing to technological advancement"
+    description: "Published Researcher in the field of Computer Science and AI, contributing to technological advancement"
   }
 ];
 
