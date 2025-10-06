@@ -20,7 +20,7 @@ const Footer = () => {
             className="wireframe-border hover:border-primary/50 hover:bg-accent/10 transition-all"
             asChild
           >
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/susmit_acharya" target="_blank" rel="noopener noreferrer">
               <Instagram className="w-5 h-5 mr-2" />
               Instagram
             </a>
