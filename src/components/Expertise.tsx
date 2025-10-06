@@ -1,11 +1,12 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Code, Database, Brain, Palette, Zap, Award } from "lucide-react";
-import certAws from "@/assets/cert-aws.jpg";
-import certGcp from "@/assets/cert-gcp.jpg";
-import certMl from "@/assets/cert-ml.jpg";
-import certReact from "@/assets/cert-react.jpg";
-import certData from "@/assets/cert-data.jpg";
+import certPython from "@/assets/cert-python.jpg";
+import certWebDev from "@/assets/cert-webdev.jpg";
+import certJava from "@/assets/cert-java.jpg";
+import certBerkeleyStartup from "@/assets/cert-berkeleystartup.jpg";
+import certYIICInternship from "@/assets/cert-yiicinternship.jpg";
+import certIJIRTPublishedAIBI from "@/assets/cert-ijirtpublishedaibi.jpg";
 
 const expertiseAreas = [
   {
@@ -36,11 +37,12 @@ const expertiseAreas = [
 ];
 
 const certificates = [
-  { name: "AWS Solutions Architect", image: certAws },
-  { name: "Google Cloud Professional", image: certGcp },
-  { name: "Machine Learning Specialization", image: certMl },
-  { name: "Advanced React Development", image: certReact },
-  { name: "Data Science Certification", image: certData }
+  { name: "100 Days of Code: Python Bootcamp", image: certPython },
+  { name: "The Complete Full Stack Web Development Bootcamp", image: certWebDev },
+  { name: "Android Java Masterclass", image: certJava },
+  { name: "Entrepreneurship for All by BerekeleyX", image: certBerkeleyStartup },
+  { name: "YIIC 4.0 Internship at Scaler School of Technology", image: certYIICInternship },
+  { name: "Published AI-BI Research Manuscript in the IJIRT Volume 12 (October 2025)", image: certIJIRTPublishedAIBI }
 ];
 
 const Expertise = () => {
