@@ -6,7 +6,7 @@ import certWebDev from "@/assets/cert-webdev.jpg";
 import certJava from "@/assets/cert-java.jpg";
 import certBerkeleyStartup from "@/assets/cert-berkeleystartup.jpg";
 import certYIICInternship from "@/assets/cert-yiicinternship.png";
-import certIJIRTPublishedAIBI from "@/assets/cert-ijirtpublishedaibi.jpg";
+import certIJIRTPublishedAIBI from "@/assets/cert-ijirtpublisedaibi.jpg";
 
 const expertiseAreas = [
   {
