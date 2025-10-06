@@ -32,7 +32,7 @@ const Footer = () => {
             className="wireframe-border hover:border-primary/50 hover:bg-accent/10 transition-all"
             asChild
           >
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/susmit-acharya/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-5 h-5 mr-2" />
               LinkedIn
             </a>
@@ -43,7 +43,7 @@ const Footer = () => {
             className="bg-primary text-primary-foreground hover:bg-primary/90"
             asChild
           >
-            <a href="mailto:your.email@example.com">
+            <a href="mailto:susmitacharya.official@gmail.com">
               <Mail className="w-5 h-5 mr-2" />
               Email Me
             </a>
@@ -51,8 +51,8 @@ const Footer = () => {
         </div>
         
         <div className="pt-12 text-sm text-muted-foreground space-y-2 animate-fade-in" style={{ animationDelay: "0.3s" }}>
-          <p>© {new Date().getFullYear()} Portfolio. All rights reserved.</p>
-          <p>Designed & developed with precision and care.</p>
+          <p>© {new Date().getFullYear()} Susmit Acharya. All rights reserved.</p>
+          <p>Designed & developed with the <b>customer</b> in mind..</p>
         </div>
       </div>
     </footer>
