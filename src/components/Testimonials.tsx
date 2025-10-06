@@ -11,7 +11,7 @@ const testimonials = [
   {
     name: "Shinjini Saha",
     role: "Department of Computer Science, NIT Durgapur",
-    quote: "His technical expertise and problem-solving skills is phenomenal. A pleasure to collaborate with on challenging projects.",
+    quote: "Worked with Susmit on competitive programming events 2023 and 2024. He demonstrated strong Java and DSA skills, writing efficient code and showing clear potential for excellence. A pleasure to collaborate with on challenging projects.",
     rating: 5
   },
   {
