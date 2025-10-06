@@ -3,44 +3,27 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "AI-Powered Analytics Platform",
-    type: "Web Application",
-    description: "A comprehensive analytics dashboard leveraging machine learning for predictive insights and data visualization.",
-    tech: "React, Python, TensorFlow, PostgreSQL",
-    link: "#",
-    github: "#"
-  },
-  {
-    title: "Distributed Systems Research",
+    title: "Deepfake Detection Tool Prototype",
     type: "Research Paper",
-    description: "Published research on optimizing consensus algorithms in distributed networks for improved fault tolerance.",
-    tech: "Go, Raft Protocol, Kubernetes",
+    description: "I built a low-cost and computational-efficient deepfake detection prototype that is feasible for small digital creators owning consumer-grade equipment, as a part of my 'Prototype for Deepfake Detection and Content Authenticity for Small Digital Creators' research Project, published in IJIRT Volume 12 (October 2025). Covered in depth below in Case Studies.",
+    tech: "Python, Vite, ReactJS, NodeJS, PostgresSQL",
     link: "#",
     github: "#"
   },
   {
-    title: "Mobile Health Monitoring App",
+    title: "AI Powered Business Intelligence Dashboard",
+    type: "Research Paper",
+    description: "I built a low-cost AI-powered Business Intelligence Dashboard for local MSMEs in India (specifically the Greater Kolkata Region) who lack expertise and resources for implementing existing global AI systems, as a part of my 'Framework for Leveraging A.I. for Strategic Growth in Small-Scale Enterprises' research project, published in IJIRT Volume 12 (October 2025). Covered in depth below in Case Studies",
+    tech: "Python, Vite, ReactJS, NodeJS, PostgresSQL",
+    link: "https://ijirt.org/article?manuscript=185126",
+    github: "https://github.com/SusmitAcharya/nivritti_ai"
+  },
+  {
+    title: "MindMesh AI Study Partner",
     type: "Mobile Application",
-    description: "Cross-platform health tracking application with real-time biometric monitoring and personalized recommendations.",
+    description: "I co-founded a student-first Super App designed to simplify education, with my peer Yogish Keswani. It integrates AI-powered planning, personalized learning, and global connection into one platform, helping students stay organized, motivated, and curious. Built to empower learners everywhere. MindMesh transforms study into a connected, intelligent, and immersive journey of growth. Currently in Private Beta Stage (1000+ users)",
     tech: "React Native, Firebase, ML Kit",
-    link: "#",
-    github: "#"
-  },
-  {
-    title: "Blockchain Voting System",
-    type: "Open Source Project",
-    description: "Secure and transparent voting system built on blockchain technology ensuring anonymity and verifiability.",
-    tech: "Solidity, Ethereum, Web3.js",
-    link: "#",
-    github: "#"
-  },
-  {
-    title: "Natural Language Processing Pipeline",
-    type: "Research Project",
-    description: "Advanced NLP pipeline for multilingual sentiment analysis and entity recognition with state-of-the-art accuracy.",
-    tech: "Python, BERT, spaCy, Docker",
-    link: "#",
-    github: "#"
+    link: "https://www.mindmesh.ai"
   }
 ];
 
