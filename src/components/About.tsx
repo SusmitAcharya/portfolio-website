@@ -1,4 +1,4 @@
-import aboutPhoto from "@/assets/susmit-headshot-bw.png";
+import aboutPhoto from "@/assets/susmit-headshot-color.png";
 
 const About = () => {
   return (
@@ -19,10 +19,6 @@ const About = () => {
               real-world applications, such as education apps and business automation, turning ideas into structured, functional systems. My clients and 
               collaborators trust me because I listen, iterate quickly, and deliver polished results. My approach is clear, based on data, and focused on building 
               long-term reliability.
-            </p>
-            <p className="animate-slide-up" style={{ animationDelay: "0.3s" }}>
-              If you’ve read this far, you already have a sense of how I think and work. I believe good work speaks for itself, so scroll down, explore my projects, 
-              and see how I turn ideas into impact. If you’re looking for someone who can bring clarity and execution to your next idea, let’s connect!
             </p>
           </div>
           <div className="animate-slide-up" style={{ animationDelay: "0.3s" }}>
