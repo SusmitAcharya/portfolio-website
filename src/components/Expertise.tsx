@@ -1,6 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { Code, Database, Brain, Palette, Zap, Award } from "lucide-react";
+import certAws from "@/assets/cert-aws.jpg";
+import certGcp from "@/assets/cert-gcp.jpg";
+import certMl from "@/assets/cert-ml.jpg";
+import certReact from "@/assets/cert-react.jpg";
+import certData from "@/assets/cert-data.jpg";
 
 const expertiseAreas = [
   {
@@ -31,11 +36,11 @@ const expertiseAreas = [
 ];
 
 const certificates = [
-  "AWS Solutions Architect",
-  "Google Cloud Professional",
-  "Machine Learning Specialization",
-  "Advanced React Development",
-  "Data Science Certification"
+  { name: "AWS Solutions Architect", image: certAws },
+  { name: "Google Cloud Professional", image: certGcp },
+  { name: "Machine Learning Specialization", image: certMl },
+  { name: "Advanced React Development", image: certReact },
+  { name: "Data Science Certification", image: certData }
 ];
 
 const Expertise = () => {
@@ -73,9 +78,14 @@ const Expertise = () => {
             <CarouselContent>
               {certificates.map((cert, index) => (
                 <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                  <Card className="wireframe-border">
-                    <CardContent className="flex items-center justify-center p-8 min-h-[120px]">
-                      <p className="text-center font-medium">{cert}</p>
+                  <Card className="wireframe-border overflow-hidden">
+                    <CardContent className="p-3">
+                      <img 
+                        src={cert.image} 
+                        alt={cert.name}
+                        className="w-full h-auto border border-border rounded-sm mb-3"
+                      />
+                      <p className="text-center font-medium text-sm">{cert.name}</p>
                     </CardContent>
                   </Card>
                 </CarouselItem>
