@@ -3,14 +3,6 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Deepfake Detection Tool Prototype",
-    type: "Research Paper",
-    description: "I built a low-cost and computational-efficient deepfake detection prototype that is feasible for small digital creators owning consumer-grade equipment, as a part of my 'Prototype for Deepfake Detection and Content Authenticity for Small Digital Creators' research Project, published in IJIRT Volume 12 (October 2025). Covered in depth below in Case Studies.",
-    tech: "Python, Vite, ReactJS, NodeJS, PostgresSQL",
-    link: "#",
-    github: "#"
-  },
-  {
     title: "AI Powered Business Intelligence Dashboard",
     type: "Research Paper",
     description: "I built a low-cost AI-powered Business Intelligence Dashboard for local MSMEs in India (specifically the Greater Kolkata Region) who lack expertise and resources for implementing existing global AI systems, as a part of my 'Framework for Leveraging A.I. for Strategic Growth in Small-Scale Enterprises' research project, published in IJIRT Volume 12 (October 2025). Covered in depth below in Case Studies",
