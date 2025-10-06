@@ -26,7 +26,6 @@ const About = () => {
               src={aboutPhoto} 
               alt="About me"
               className="w-full h-auto border border-border shadow-lg"
-              style="border-radius: 100%;"
             />
           </div>
         </div>
