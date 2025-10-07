@@ -1,7 +1,23 @@
+import { useEffect, useState } from "react";
+
 const Hero = () => {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-6">
-      <div className="text-center space-y-8 animate-fade-in">
+    <section id="home" className="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
+      <div 
+        className="text-center space-y-8 animate-fade-in parallax-slow"
+        style={{ transform: `translateY(${scrollY * 0.3}px)` }}
+      >
         <h1 className="text-6xl md:text-8xl font-light tracking-tight">
           Design that works,
           <br />

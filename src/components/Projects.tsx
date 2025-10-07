@@ -1,5 +1,6 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { ExternalLink, Github } from "lucide-react";
+import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 const projects = [
   {
@@ -20,17 +21,31 @@ const projects = [
 ];
 
 const Projects = () => {
+  const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation();
+  const { ref: accordionRef, isVisible: accordionVisible } = useScrollAnimation();
+
   return (
     <section id="projects" className="py-24 px-6 bg-muted/30">
       <div className="container mx-auto max-w-4xl">
-        <h2 className="text-4xl md:text-5xl font-light mb-16 animate-slide-up">My Projects</h2>
+        <h2 
+          ref={titleRef}
+          className={`text-4xl md:text-5xl font-light mb-16 scroll-fade-in ${titleVisible ? 'visible' : ''}`}
+        >
+          My Projects
+        </h2>
         
-        <Accordion type="single" collapsible className="space-y-4">
+        <Accordion 
+          ref={accordionRef}
+          type="single" 
+          collapsible 
+          className={`space-y-4 scroll-fade-in ${accordionVisible ? 'visible' : ''}`}
+        >
           {projects.map((project, index) => (
             <AccordionItem 
               key={index} 
               value={`item-${index}`}
-              className="wireframe-border rounded-lg px-6 bg-background hover:border-primary/50 transition-colors"
+              className="wireframe-border rounded-lg px-6 bg-background hover:border-primary/50 transition-all hover-lift"
+              style={{ transitionDelay: accordionVisible ? `${index * 0.1}s` : '0s' }}
             >
               <AccordionTrigger className="hover:no-underline py-6">
                 <div className="text-left">
@@ -48,16 +63,16 @@ const Projects = () => {
                   <div className="flex gap-4 pt-2">
                     <a 
                       href={project.link} 
-                      className="inline-flex items-center gap-2 text-sm hover:text-primary transition-colors"
+                      className="inline-flex items-center gap-2 text-sm hover:text-primary transition-all hover:gap-3 group"
                     >
-                      <ExternalLink className="w-4 h-4" />
+                      <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
                       View Project
                     </a>
                     <a 
                       href={project.github} 
-                      className="inline-flex items-center gap-2 text-sm hover:text-primary transition-colors"
+                      className="inline-flex items-center gap-2 text-sm hover:text-primary transition-all hover:gap-3 group"
                     >
-                      <Github className="w-4 h-4" />
+                      <Github className="w-4 h-4 group-hover:scale-110 transition-transform" />
                       Source Code
                     </a>
                   </div>

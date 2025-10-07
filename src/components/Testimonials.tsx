@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
+import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 const testimonials = [
   {
@@ -23,22 +24,33 @@ const testimonials = [
 ];
 
 const Testimonials = () => {
+  const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation();
+  const { ref: cardsRef, isVisible: cardsVisible } = useScrollAnimation();
+
   return (
     <section id="testimonials" className="py-24 px-6 bg-muted/30">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl md:text-5xl font-light mb-16 animate-slide-up">Testimonials</h2>
+        <h2 
+          ref={titleRef}
+          className={`text-4xl md:text-5xl font-light mb-16 scroll-fade-in ${titleVisible ? 'visible' : ''}`}
+        >
+          Testimonials
+        </h2>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div 
+          ref={cardsRef}
+          className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
           {testimonials.map((testimonial, index) => (
             <Card 
               key={index} 
-              className="wireframe-border hover-lift hover:border-primary/50 transition-all"
-              style={{ animationDelay: `${index * 0.1}s` }}
+              className={`wireframe-border hover-lift hover:border-primary/50 transition-all scroll-fade-in ${cardsVisible ? 'visible' : ''}`}
+              style={{ transitionDelay: cardsVisible ? `${index * 0.1}s` : '0s' }}
             >
               <CardContent className="p-6 space-y-4">
                 <div className="flex gap-1">
                   {Array.from({ length: testimonial.rating }).map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-primary text-primary" />
+                    <Star key={i} className="w-4 h-4 fill-primary text-primary hover:scale-125 transition-transform" />
                   ))}
                 </div>
                 

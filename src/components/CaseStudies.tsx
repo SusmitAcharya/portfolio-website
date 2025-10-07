@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
 import AIBISalesForecastGraph from "@/assets/casestudy-aibisalesforcastgraph.png";
 import AIBIChurnGraph from "@/assets/casestudy-aibichurngraph.png";
+import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 const caseStudies = [
   {
@@ -17,17 +18,25 @@ const caseStudies = [
 ];
 
 const CaseStudies = () => {
+  const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation();
+  const { ref: cardRef, isVisible: cardVisible } = useScrollAnimation();
+
   return (
     <section id="case-studies" className="py-24 px-6">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl md:text-5xl font-light mb-16 animate-slide-up">Case Studies</h2>
+        <h2 
+          ref={titleRef}
+          className={`text-4xl md:text-5xl font-light mb-16 scroll-fade-in ${titleVisible ? 'visible' : ''}`}
+        >
+          Case Studies
+        </h2>
         
         <div className="space-y-12">
           {caseStudies.map((study, index) => (
             <Card 
-              key={index} 
-              className="wireframe-border hover-lift hover:border-primary/50 transition-all"
-              style={{ animationDelay: `${index * 0.1}s` }}
+              key={index}
+              ref={cardRef}
+              className={`wireframe-border hover-lift hover:border-primary/50 transition-all scroll-fade-in ${cardVisible ? 'visible animate-scale-in' : ''}`}
             >
               <CardHeader>
                 <CardTitle className="text-2xl font-light">{study.title}</CardTitle>
@@ -69,21 +78,21 @@ const CaseStudies = () => {
                   <img 
                     src={study.image1} 
                     alt="Case study preview"
-                    className="w-full h-auto rounded border border-border"
+                    className="w-full h-auto rounded border border-border hover-scale"
                   />
                   <img 
                     src={study.image2} 
                     alt="Case study preview"
-                    className="w-full h-auto rounded border border-border"
+                    className="w-full h-auto rounded border border-border hover-scale"
                   />
                 </div>
                 
                 <a 
                   href={study.link}
-                  className="inline-flex items-center gap-2 text-primary hover:gap-3 transition-all pt-4"
+                  className="inline-flex items-center gap-2 text-primary hover:gap-4 transition-all pt-4 group"
                 >
                   View Full Case Study
-                  <ArrowRight className="w-4 h-4" />
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </a>
               </CardContent>
             </Card>
