@@ -1,4 +1,4 @@
-import { Home, User, Lightbulb, FolderOpen, FileText, MessageSquare, Mail, Menu } from "lucide-react";
+import { Home, Lightbulb, FolderOpen, FileText, MessageSquare, Mail, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useState, useEffect } from "react";
@@ -27,7 +27,6 @@ const Navbar = () => {
 
   const navItems = [
     { id: "home", label: "Home", icon: Home },
-    { id: "about", label: "About Me", icon: User },
     { id: "expertise", label: "Expertise", icon: Lightbulb },
     { id: "projects", label: "Projects", icon: FolderOpen },
     { id: "case-studies", label: "Case Studies", icon: FileText },
