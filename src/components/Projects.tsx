@@ -10,13 +10,6 @@ const projects = [
     tech: "Python, Vite, ReactJS, NodeJS, PostgresSQL",
     link: "https://ijirt.org/article?manuscript=185126",
     github: "https://github.com/SusmitAcharya/nivritti_ai"
-  },
-  {
-    title: "MindMesh AI Study Partner",
-    type: "Mobile Application",
-    description: "I co-founded a student-first Super App designed to simplify education, with my peer Yogish Keswani. It integrates AI-powered planning, personalized learning, and global connection into one platform, helping students stay organized, motivated, and curious. Built to empower learners everywhere. MindMesh transforms study into a connected, intelligent, and immersive journey of growth. Currently in Private Beta Stage (1000+ users)",
-    tech: "React Native, Firebase, ML Kit",
-    link: "https://www.mindmesh.ai"
   }
 ];
 
