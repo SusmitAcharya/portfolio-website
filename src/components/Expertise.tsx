@@ -8,6 +8,19 @@ import certJava from "@/assets/cert-java.jpg";
 import certBerkeleyStartup from "@/assets/cert-berkeleystartup.jpg";
 import certYIICInternship from "@/assets/cert-yiicinternship.png";
 import certIJIRTPublishedAIBI from "@/assets/cert-ijirtpublisedaibi.jpg";
+import certMUNStudentCoordinator from "@/assets/cert-munstudentcoordinator.jpg";
+import certMUNDirector from "@/assets/cert-mundirector.jpg";
+import certJU2025 from "@/assets/cert-ju2025.jpg";
+import certJU2024 from "@/assets/cert-ju2024.jpg";
+import certBoscoCodenza2025 from "@/assets/cert-boscocodenza2025.png";
+import certBoscoShoot from "@/assets/cert-boscoshoot.jpg";
+import certAuxiCyberhive from "@/assets/cert-auxicyberhive.jpg";
+import certBoscoCodenza2024 from "@/assets/cert-boscocodenza2024.jpg";
+import certTechElanza2024 from "@/assets/cert-techelanza2024.jpg";
+import certTechElanza2023 from "@/assets/cert-techelanza2023.jpg";
+import certSilverzoneiiO2023 from "@/assets/cert-silverzoneiio2023.png";
+import cert31OpenShotoCup2023 from "@/assets/cert-31openshotocup2023.jpg";
+import certBoscoBandW from "@/assets/cert-boscobandw.jpg";
 
 const expertiseAreas = [
   {
@@ -43,7 +56,20 @@ const certificates = [
   { name: "Android Java Masterclass", image: certJava },
   { name: "Entrepreneurship for All by BerekeleyX", image: certBerkeleyStartup },
   { name: "YIIC 4.0 Internship at Scaler School of Technology", image: certYIICInternship },
-  { name: "Published AI-BI Research Manuscript in the IJIRT Volume 12 (October 2025)", image: certIJIRTPublishedAIBI }
+  { name: "Published AI-BI Research Manuscript in the IJIRT Volume 12 (October 2025)", image: certIJIRTPublishedAIBI },
+  { name: "2023 Silverzone iiO", image: certSilverzoneiiO2023 },
+  { name: "2025 Bosco Codenza", image: certBoscoCodenza2025 },
+  { name: "2024 Bosco Codenza", image: certBoscoCodenza2024 },
+  { name: "2024 Auxi-Cyberhive", image: certAuxiCyberhive },
+  { name: "2024 Auxi Tech Elanza (Auxi-Robotica)", image: certTechElanza2024 },
+  { name: "2023 Auxi Tech Elanza (Auxi-Robotica)", image: certTechElanza2023 },
+  { name: "2025 AUXIB-MUN Student Coordinator", image: ccertMUNStudentCoordinator },
+  { name: "2024 AUXIB-MUN Director of Lok Sabha", image: certMUNDirector },
+  { name: "2025 JUMUN", image: certJU2025 },
+  { name: "2024 JUMUN", image: certJU2024 },
+  { name: "31st Open Shoto Cup 2023", image: cert31OpenShotoCup2023 },
+  { name: "2025 Bosco Shoot", image: certBoscoShoot },
+  { name: "2022 Bosco Black and White", image: certBoscoBandW }
 ];
 
 const Expertise = () => {
