@@ -116,7 +116,7 @@ const Expertise = () => {
             <h3 className="text-2xl font-light">Certificates</h3>
           </div>
           
-          <Carousel className="w-full max-w-4xl mx-auto">
+          <Carousel opts={{ loop: true }} className="w-full max-w-4xl mx-auto">
             <CarouselContent>
               {certificates.map((cert, index) => (
                 <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
