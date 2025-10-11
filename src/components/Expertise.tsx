@@ -62,7 +62,7 @@ const certificates = [
   { name: "2024 Auxi-Cyberhive", image: certAuxiCyberhive },
   { name: "2024 Auxi Tech Elanza (Auxi-Robotica)", image: certTechElanza2024 },
   { name: "2023 Auxi Tech Elanza (Auxi-Robotica)", image: certTechElanza2023 },
-  { name: "2025 AUXIB-MUN Student Coordinator", image: ccertMUNStudentCoordinator },
+  { name: "2025 AUXIB-MUN Student Coordinator", image: certMUNStudentCoordinator },
   { name: "2024 AUXIB-MUN Director of Lok Sabha", image: certMUNDirector },
   { name: "2025 JUMUN", image: certJU2025 },
   { name: "2024 JUMUN", image: certJU2024 },
