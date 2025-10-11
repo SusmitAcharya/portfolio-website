@@ -13,13 +13,12 @@ import certMUNDirector from "@/assets/cert-mundirector.jpg";
 import certJU2025 from "@/assets/cert-ju2025.jpg";
 import certJU2024 from "@/assets/cert-ju2024.jpg";
 import certBoscoCodenza2025 from "@/assets/cert-boscocodenza2025.jpg";
-import certBoscoShoot from "@/assets/cert-boscoshoot.jpg";
+import certBoscoShoot from "@/assets/cert-bososhoot.jpg";
 import certAuxiCyberhive from "@/assets/cert-auxicyberhive.jpg";
 import certBoscoCodenza2024 from "@/assets/cert-boscocodenza2024.jpg";
 import certTechElanza2024 from "@/assets/cert-techelanza2024.jpg";
 import certTechElanza2023 from "@/assets/cert-techelanza2023.jpg";
 import certSilverzoneiiO2023 from "@/assets/cert-silverzoneiio2023.jpg";
-import cert31OpenShotoCup2023 from "@/assets/cert-31openshotocup2023.jpg";
 import certBoscoBandW from "@/assets/cert-boscobandw.jpg";
 
 const expertiseAreas = [
@@ -67,7 +66,6 @@ const certificates = [
   { name: "2024 AUXIB-MUN Director of Lok Sabha", image: certMUNDirector },
   { name: "2025 JUMUN", image: certJU2025 },
   { name: "2024 JUMUN", image: certJU2024 },
-  { name: "31st Open Shoto Cup 2023", image: cert31OpenShotoCup2023 },
   { name: "2025 Bosco Shoot", image: certBoscoShoot },
   { name: "2022 Bosco Black and White", image: certBoscoBandW }
 ];
