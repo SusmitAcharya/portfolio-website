@@ -12,13 +12,13 @@ import certMUNStudentCoordinator from "@/assets/cert-munstudentcoordinator.jpg";
 import certMUNDirector from "@/assets/cert-mundirector.jpg";
 import certJU2025 from "@/assets/cert-ju2025.jpg";
 import certJU2024 from "@/assets/cert-ju2024.jpg";
-import certBoscoCodenza2025 from "@/assets/cert-boscocodenza2025.png";
+import certBoscoCodenza2025 from "@/assets/cert-boscocodenza2025.jpg";
 import certBoscoShoot from "@/assets/cert-boscoshoot.jpg";
 import certAuxiCyberhive from "@/assets/cert-auxicyberhive.jpg";
 import certBoscoCodenza2024 from "@/assets/cert-boscocodenza2024.jpg";
 import certTechElanza2024 from "@/assets/cert-techelanza2024.jpg";
 import certTechElanza2023 from "@/assets/cert-techelanza2023.jpg";
-import certSilverzoneiiO2023 from "@/assets/cert-silverzoneiio2023.png";
+import certSilverzoneiiO2023 from "@/assets/cert-silverzoneiio2023.jpg";
 import cert31OpenShotoCup2023 from "@/assets/cert-31openshotocup2023.jpg";
 import certBoscoBandW from "@/assets/cert-boscobandw.jpg";
 
