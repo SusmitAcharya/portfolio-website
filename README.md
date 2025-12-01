@@ -7,8 +7,7 @@ It’s built to showcase my background, skills, projects and academic/research i
 
 ## Overview
 
-This portfolio site reflects my journey as a student, coder, researcher, and developer.  
-I created it to:  
+This portfolio site reflects my journey as a student, coder, researcher, and developer. I created it to:  
 - Provide a clean, professional, centralized presence online.  
 - Highlight my skills, projects, and research work.  
 - Make it easier for collaborators, recruiters, or peers to get to know my profile without digging through scattered links.
@@ -25,7 +24,5 @@ What this site offers:
 
 If you’d like to reach out — feel free to check the contact/social-links section on the site.
 Alternatively, you can directly contact me through:
-
-LinkedIn: [susmit-acharya](https://www.linkedin.com/in/susmit-acharya/)
-
-Email: susmitacharya.official@gmail.com
+1. LinkedIn: [susmit-acharya](https://www.linkedin.com/in/susmit-acharya/)
+2. Email: susmitacharya.official@gmail.com
