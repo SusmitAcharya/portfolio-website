@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="space-y-6 animate-slide-up">
           <h2 className="text-4xl md:text-5xl font-light">Let's Connect</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Let's build something amazing together!
+            And build something amazing together!
           </p>
         </div>
         
