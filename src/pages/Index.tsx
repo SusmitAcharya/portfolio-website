@@ -17,7 +17,7 @@ const Index = () => {
     <>
       {isLoading && <LoadingScreen onComplete={() => setIsLoading(false)} />}
       <div className={`min-h-screen ${isLoading ? "overflow-hidden" : ""}`}>
-        <Navbar />
+        {!isLoading && <Navbar />}
         <Hero />
         <About />
         <Expertise />
