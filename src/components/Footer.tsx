@@ -39,6 +39,7 @@ const Footer = () => {
         
         <div className="pt-12 text-sm text-muted-foreground space-y-2 animate-fade-in" style={{ animationDelay: "0.3s" }}>
           <p>Designed & Developed with the <b>Customer</b> in Mind..</p>
+          <hr></hr>
           <p>Copyright © 2025 Susmit Acharya. All rights reserved.</p>
         </div>
       </div>
