@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Download } from "lucide-react";
 
 const Hero = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -24,16 +23,6 @@ const Hero = () => {
           <br />
           <span className="font-normal">Code that delivers!</span>
         </h1>
-        <Button 
-            size="lg" 
-            className="bg-primary text-primary-foreground hover:bg-primary/90"
-            asChild
-          >
-            <a href="mailto:susmitacharya.official@gmail.com">
-              <Download className="w-5 h-5 mr-2" />
-              Download Resume
-            </a>
-          </Button>
         <div className="w-24 h-0.5 bg-primary mx-auto"></div>
       </div>
     </section>
