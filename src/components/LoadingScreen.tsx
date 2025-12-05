@@ -7,7 +7,7 @@ interface LoadingScreenProps {
 const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
   const [isExiting, setIsExiting] = useState(false);
   const [displayedText, setDisplayedText] = useState("");
-  const fullText = "Welcome to what is going to be your favourite portfolio...";
+  const fullText = "Welcome to what will be your favourite portfolio...";
 
   useEffect(() => {
     let currentIndex = 0;
