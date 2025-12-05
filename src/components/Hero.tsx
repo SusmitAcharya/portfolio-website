@@ -19,9 +19,9 @@ const Hero = () => {
         style={{ transform: `translateY(${scrollY * 0.3}px)` }}
       >
         <h1 className="text-6xl md:text-8xl font-light tracking-tight">
-          Design that works,
+          Hii! Presenting to you
           <br />
-          <span className="font-normal">Code that delivers!</span>
+          <span className="font-normal">Susmit Acharya</span>
         </h1>
         <div className="w-24 h-0.5 bg-primary mx-auto"></div>
       </div>
