@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Download } from "lucide-react";
 
 const Hero = () => {
   const [scrollY, setScrollY] = useState(0);
